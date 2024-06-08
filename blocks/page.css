@@ -1,0 +1,21 @@
+.page {
+  max-width: 1280px;
+  min-height: 1883px;
+  background: rgba(42, 44, 47, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter", "Sans-serif";
+  width: 100%;
+}
+/*MARGIN DE 867PX*/ /*MARGIN DE 867PX*/
+@media screen and(max-width: 1024px) {
+  .page {
+    height: 1659px;
+  }
+}
+
+/*MARGIN DE 410PX*/ /*MARGIN DE 410PX*/
+@media screen and (max-width: 720px) {
+  .page {
+    height: 1550px;
+  }
+}
