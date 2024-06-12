@@ -31,9 +31,14 @@
   max-width: 984px;
   margin-bottom: 92px;
   width: 100%;
+  display: block;
+  justify-content: center;
 }
 
-@media screen and(max-width: 1000px) {
+@media screen and (max-width: 1000px) {
+  .lead {
+    margin: 0 auto;
+  }
   .lead__title {
     max-width: 530px;
   }
@@ -41,18 +46,17 @@
   .lead__subtitle {
     max-width: 720px;
     padding-bottom: 30px;
+    margin-block: 0;
   }
 
   .lead__image {
-    max-width: 768px;
-    padding-bottom: 90px;
-    width: 100%;
-    display: block;
-    justify-content: center;
+    height: auto;
+    margin-bottom: 90px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 795px) {
   .lead__title {
+    margin-inline: 16px;
     max-width: 228px;
     font-family: Inter;
     font-size: 40px;
@@ -67,12 +71,11 @@
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+    padding: 0;
   }
 
   .lead__image {
-    max-width: 320px;
-    display: block;
-    justify-content: center;
-    width: 100%;
+    height: auto;
+    margin-bottom: 64px;
   }
 }

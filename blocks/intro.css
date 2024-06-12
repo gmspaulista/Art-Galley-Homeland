@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   margin: 0 auto;
+  padding-right: 154px;
 }
 
 /*Titulo*/
@@ -14,6 +14,7 @@
   font-weight: 900;
   line-height: 58px;
   padding-bottom: 40px;
+  margin-block: 0;
 }
 
 /*Frase*/
@@ -29,14 +30,13 @@
 /*JOSEPH Beus*/
 .intro__text-reference {
   width: 732px;
-  display: flex;
-  justify-content: end;
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
   text-align: right;
   padding-right: 98px;
-  margin-top: 10px;
+  margin-block: 0;
+  padding-top: 20px;
 }
 
 /*Descricao da cidade*/
@@ -49,83 +49,79 @@
   text-align: left;
   padding-right: 108px;
   margin-top: 32px;
+  margin-bottom: 92px;
 }
 
-@media screen and(max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 148px;
-    padding: 0;
+    padding-inline: 24px;
+    overflow: hidden;
   }
 
   .intro__title {
-    max-width: 707px;
+    width: auto;
+    padding: 0;
     height: 98px;
     font-size: 45px;
     line-height: 49px;
+    margin-bottom: 0;
   }
 
   .intro__text-phrase {
-    width: 720px;
-    height: 102px;
+    width: auto;
+    padding-right: 0;
+    line-height: 102px;
     font-size: 24px;
     line-height: 34px;
   }
 
   .intro__text-reference {
-    width: 720px;
+    width: auto;
+    text-align: end;
+    padding: 0;
     height: 34px;
     font-size: 24px;
+    margin-block: 0;
+    padding-top: 26px;
   }
 
   .intro__text-introduction {
-    width: 720px;
+    width: auto;
+    padding: 0;
     height: 182px;
     margin-bottom: 88px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 795px) {
   .intro {
-    padding: 0;
+    padding-inline: 16px;
+    width: auto;
   }
 
   .intro__title {
-    width: 288px;
-    height: 140px;
+    height: auto;
     font-size: 32px;
     line-height: 35px;
-    margin-right: auto;
+    padding-right: 0;
   }
 
   .intro__text-phrase {
-    width: 288px;
-    height: 180px;
-    font-family: Inter;
+    height: auto;
     font-size: 24px;
     line-height: 35px;
+    padding-top: 10px;
   }
 
   .intro__text-reference {
-    width: 288px;
-    height: 34px;
-    font-family: Inter;
-    font-size: 24px;
+    height: auto;
     line-height: 34px;
-    font-family: Inter;
-    font-weight: 400;
-    text-align: right;
   }
 
   .intro__text-introduction {
-    width: 288px;
-    height: 506px;
-    font-family: Inter;
+    height: auto;
+    margin-bottom: 64px;
     font-size: 16px;
     line-height: 26.08px;
-    margin-bottom: 64px;
   }
 }

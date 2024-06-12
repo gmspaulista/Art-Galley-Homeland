@@ -6,16 +6,15 @@
   font-family: "Inter", "Sans-serif";
   width: 100%;
 }
-/*MARGIN DE 867PX*/ /*MARGIN DE 867PX*/
-@media screen and(max-width: 1024px) {
+@media screen and (max-width: 1000px) {
   .page {
-    height: 1659px;
+    min-height: 1659px;
+    overflow: hidden;
   }
 }
 
-/*MARGIN DE 410PX*/ /*MARGIN DE 410PX*/
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 795px) {
   .page {
-    height: 1550px;
+    min-height: 1550px;
   }
 }
