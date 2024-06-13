@@ -13,7 +13,11 @@
   margin-bottom: 24px;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 752px) {
+=======
+@media screen and (max-width: 795px) {
+>>>>>>> adf8d01ac9b19692e50b14491a40e828e49c6bc5
   .footer__copyright {
     line-height: 14px;
     margin-bottom: 24px;
